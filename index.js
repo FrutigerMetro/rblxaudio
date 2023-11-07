@@ -10,7 +10,7 @@ const urlData = {};
 // functions
 async function getAssetName(id, cookie) {
 	// i KNOW you can use this api without the cookie but i'll use it anyways
-	let response = await fetch('https://api.roblox.com/marketplace/productinfo?assetId=' + id, {
+	let response = await fetch('https://assetdelivery.roblox.com/v1/asset/?ID=' + id, {
 		Headers: {
 			"User-Agent": "Roblox/WinInet",
 			"Cookie": ".ROBLOSECURITY=" + cookie
