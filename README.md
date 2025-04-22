@@ -3,7 +3,7 @@ this is a shitty nodejs script i made that you can use to download multiple audi
 
 uses the assetdelivery api for it and you only need the ids of the audios and a valid placeId from a place that has permission for playing the audios
 
-# how to use this shit
+# how to use this
 1) open cmd or your terminal or some shit idk i use windows and type `npm install`
 2) go into the `settings.json` and change the following values:
 ```js
